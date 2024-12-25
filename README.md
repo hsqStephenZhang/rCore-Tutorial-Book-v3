@@ -12,8 +12,8 @@ If you cannot access `github.io` normally due to network problems, please visit 
 ## Deploy your own docs
 
 ```sh
-$ FORK  https://github.com/rcore-os/rCore-Tutorial-Book-v3.git  to YOUR REPO 
-$ git clone YOUR REPO(e.g. https://github.com/YOUR/rCore-Tutorial-Book-v3.git)
+$ FORK  https://github.com/rcore-os/rCore-Tutorial-Book-v3.git  to YOUR REPO (WITH SUBMODULES) 
+$ git clone --recurse-submodules YOUR REPO(e.g. https://github.com/YOUR/rCore-Tutorial-Book-v3.git)
 $ cd rCore-Tutorial-Book-v3
 $ make html # After that, the generated doc can be found in rCore-Tutorial-Book-v3/build/html
 $ # modify the doc
